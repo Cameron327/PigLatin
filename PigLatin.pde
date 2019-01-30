@@ -31,3 +31,26 @@ public String pigLatin(String sWord)
 		return "ERROR!";
 	}
 }
+
+
+
+// public int findFirstA(String word){
+//   for (int i = 0; i < word.length(); i++)
+//     if (word.substring(i,i+1).equals("a"))
+//       return i;
+//     return -1;
+// }
+
+// public int findFirstAorB(String word){
+//   for (int i = 0; i < word.length(); i ++)
+//     if (word.substring(i, i+1).equals("a") || word.substring(i, i+1).equals("b"))
+//       return i;
+//     return -1;
+// }
+
+// public int findFirstVowel(String word){
+//   for (int i = 0; i < word.length(); i ++)
+//   if (word.substring(i, i+1).equals("a") || word.substring(i, i+1).equals("e") || word.substring(i, i+1).equals("i") || word.substring(i, i+1).equals("o") || word.substring(i, i+1).equals("u"))
+//     return i;
+//   return -1;
+// }
